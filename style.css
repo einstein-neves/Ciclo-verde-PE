@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    color: rgb(2, 2, 4);
+
+    /* IMAGEM DE FUNDO */
+    background-image: url('img/replantiu.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* deixa fixa como wallpaper */
+}
+
+header.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #28de3e;
+    color: #080606;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 150px;
+}
+
+.menu a {
+    color: rgb(17, 17, 18);
+    text-decoration: none; 
+    margin-left: 40px;
+    font-weight: bolder;
+}
+
+
+.Produtos {
+    text-align: center;
+    margin: 40px 0;
+    border-radius: 50%;
+}
+
+.Produtos img {
+    width: 100px;       /* largura de cada imagem */
+    margin: 100px;       /* espaçamento entre elas */
+    border-radius: 100%; /* cantos arredondados */
+    
+}
